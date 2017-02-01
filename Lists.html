@@ -1,18 +1,92 @@
  <html>
  <head> 
  <title> Spinach, Onion, and Goat Cheese Omelettes </title>
+     <style>
+         .odd {
+             background-color: lightgray;
+             text-align: left;
+         }
+         .even {
+             background-color: darkgray;
+             text-align: left;
+         }
+          .ing {color: blue; }
+         .dir {
+             color:red;
+             display
+         }
+         
+ol {
+ counter-reset:index;
+}
+#b{
+  display: table-row;
+  counter-increment: index;
+}
+#b:before{
+  content:counter(index)'. ';
+}     
+
+     </style>
  </head>
  <body>
  <h1> Spinach, Onion, and Goat Cheese Omelettes </h1>
  <h2> By Laseandra Kelly </h2>
  <p> I make spinach, onion, and goat cheese omelettes whenever I am feeling fancy and have goat cheese in my fridge. The spinach makes it healthy and the goat cheese makes me feel fancy and tastes really good. </p>
  <h3> INGREDIENTS </h3>
- <ul>
- <li>1/4 medium Onion</li> <li> 2 tbsp. Butter</li><li>1 large Handful of Spinach</li><li>3 large Eggs</li><li>2 tbsp. Heavy Cream</li><li>1 oz. Goat Cheese</li><li>1 medium Spring Onion(Garnish)</li><li>Salt and pepper to Taste</li> 
- </ul>
- <h4>DIRECTIONS</h4> 
+ 
+<table class="ing"><ul>
+        <tr class="odd">
+ <th><li>1/4 medium Onion</li></th> 
+            </tr>
+        <tr class="even">
+            <th><li> 2 tbsp. Butter</li></th>
+            </tr>
+        <tr class="odd">
+            <th><li>1 large Handful of Spinach</li></th>
+            </tr>
+        <tr class="even">
+            <th><li>3 large Eggs</li></th>
+            </tr>
+        <tr class="odd">
+            <th><li>2 tbsp. Heavy Cream</li></th>
+            </tr>
+        <tr class="even">
+            <th><li>1 oz. Goat Cheese</li></th>
+            </tr>
+        <tr class="odd">
+            <th><li>1 medium Spring Onion(Garnish)</li></th>
+        </tr>
+        <tr class="even">
+            <th><li>Salt and pepper to Taste</li></th>
+    </tr>
+     </ul>
+    </table>
+
+ <h3>DIRECTIONS</h3> 
+     <table class="dir">
  <ol>
- <li>Melt butter in pan</li><li>Cut 1/4 onion into long strips while butter browns</li><li>add onion to browning butter and let caramelize</li><li>Once onions are translucent, add spinach to pan and let cook until wilted. Season with salt and pepper</li><li>Remove onion and spinach mixture and set aside. It small container crack 3 large eggs</li><li>add heavy cream, salt, and pepper and mix together</li><li>Heat pan to medium-low heat, add egg mixture and allow to cook</li><li>Once edges begin to set, and onion and spinach mixture onto half the omelette and crumble goat cheese on top and season with more salt and pepper</li><li>Fold omelette is half and garnish with chopped spring onions</li><li>Enjoy!</li>
+     <tr class="odd">
+ <th><li id="b">Melt butter in pan</li></th></tr>
+     <tr class="even">    
+     <th><li id="b">Cut 1/4 onion into long strips while butter browns</li></th></tr>
+         <tr class="odd">
+     <th><li id="b">add onion to browning butter and let caramelize</li></th></tr>
+      <tr class="even">       
+     <th><li id="b">Once onions are translucent, add spinach to pan and let cook until wilted. Season with salt and pepper</li></th></tr>
+     <tr class="odd">
+             <th><li id="b">Remove onion and spinach mixture and set aside. It small container crack 3 large eggs</li></th></tr>
+     <tr class="even">
+             <th><li id="b">add heavy cream, salt, and pepper and mix together</li></th></tr>
+     <tr class="odd">
+             <th><li id="b">Heat pan to medium-low heat, add egg mixture and allow to cook</li></th></tr>
+     <tr class="even">
+             <th><li id="b">Once edges begin to set, and onion and spinach mixture onto half the omelette and crumble goat cheese on top and season with more salt and pepper</li></th></tr>
+     <tr class="odd">
+             <th><li id="b">Fold omelette is half and garnish with chopped spring onions</li></th></tr>
+     <tr class="even">
+             <th><li id="b">Enjoy!</li></th></tr>
  </ol>
+         </table>
  </body>
  </html>
